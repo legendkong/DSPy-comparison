@@ -4,6 +4,9 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
+import os
+
+os.environ["OPENAI_API_KEY"] = "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"
 
 CHROMA_PATH = "chroma"
 

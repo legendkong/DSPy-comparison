@@ -9,6 +9,8 @@ import shutil
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
 
+os.environ["OPENAI_API_KEY"] = "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"
+
 
 def main():
     generate_data_store()

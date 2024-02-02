@@ -5,12 +5,14 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores.chroma import Chroma
 import os
 import shutil
+from dotenv import load_dotenv
+import openai
+
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
-
-os.environ["OPENAI_API_KEY"] = "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"
-
 
 def main():
     generate_data_store()

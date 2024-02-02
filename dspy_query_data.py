@@ -12,7 +12,6 @@ from dspy.datasets import HotPotQA
 from dotenv import load_dotenv
 
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 turbo = dspy.OpenAI(model='gpt-3.5-turbo')

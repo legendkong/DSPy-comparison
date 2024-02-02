@@ -15,7 +15,7 @@ python create_database.py
 Comparison between using DSPy vs non-DSPy(LangChain prompts):
 1. DSPy
 ```python
-python dspy_query_data.py "How does Alice meet the Mad Hatter?"
+python dspy_test.py "How does Alice meet the Mad Hatter?"
 ```
 
 2. non-DSPy (LangChain prompts)

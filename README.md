@@ -1,4 +1,4 @@
-# Langchain RAG Tutorial
+# Comparison for DSPy vs non-DSPy(Using LangChain prompts)
 
 Install dependencies.
 
@@ -12,8 +12,13 @@ Create the Chroma DB.
 python create_database.py
 ```
 
-Query the Chroma DB.
+Comparison between using DSPy vs non-DSPy(LangChain prompts):
+1. DSPy
+```python
+python dspy_test.py "How does Alice meet the Mad Hatter?"
+```
 
+2. non-DSPy (LangChain prompts)
 ```python
 python query_data.py "How does Alice meet the Mad Hatter?"
 ```

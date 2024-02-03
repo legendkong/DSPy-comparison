@@ -3,4 +3,4 @@ unstructured # Document loading
 chromadb # Vector storage
 openai # For embeddings
 tiktoken  # For embeddings
-dspy # DSPy framework
+dspy-ai # DSPy framework
